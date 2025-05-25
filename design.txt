@@ -1,0 +1,37 @@
+State Purpose
+Def Get_gpa
+    input Gpa
+    return
+
+Def Sports_team
+    Input sport level
+    if sport_lvl >8
+        print they can join the varsity team
+    elif sport_lvl <8 and >5
+        print they cna join the club team
+    else-sport_lvl < 5
+        print they can join the intramural team
+    return sports_team
+Def Honors_prog
+    input sum of ratings
+    if sum_of_ratings > 17
+        print Admitted to SAH
+    elif sum_of_ratings<17 and >=12
+        print Admitted to AAH
+    else
+        print Sorry not admitted to honors program
+    return Honors_prog
+def main():
+    purpose
+    gpa = get_gpa
+    if gpa<2
+        print deny
+    elif gpa>4
+        print get gpa to a 0-4 scale
+    elif gpa>=3 or <=4
+        print admitted
+        sport()
+        honors_prog()
+    elif gpa>=2 or <3
+        print waitlist
+
